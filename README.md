@@ -1,5 +1,6 @@
 # 8Lives.
-[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=Hc79sDi3f0U "Now in Android: 55")
+[![Watch the video](https://raw.githubusercontent.com/Bogeshwararao/8Lives/main/ytpicture.png)](https://www.youtube.com/watch?v=mFzQlzk_bKU)
+
 8Lives is a Blockchain Organ Donation prototype created as a proof-of-concept for a decentralized solution. The application is built on Ethereum, more specifically on Remix where the smart contract is compiled and deployed. XDCpay serves as a wallet for managing the fake XDC coins. A front-end interface application is built in JavaScript and interacts with the back-end via Web3.js. 
 
 # 8 different organs can be donated from human body.
