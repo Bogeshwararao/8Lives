@@ -1,7 +1,17 @@
+/* #wrapper {
+	font-family: 'Roboto';
+	cursor: default;
+	background-image: url("https://img.freepik.com/free-vector/flat-hand-drawn-hospital-reception-scene_52683-55313.jpg?w=740&t=st=1665209234~exp=1665209834~hmac=c96178ebb00bfe4a40a0f69a6cc1803c126f6e0e8ac6dba48299434f3360e1fc");
+    background-repeat: no-repeat;
+	background-size: cover;
+	width:1000vw;
+	
+     
+} */
 body {
 	font-family: 'Roboto';
 	cursor: default;
-	background-image: url("https://images.unsplash.com/photo-1648887233981-3d811bb838cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+	background-image: url("https://img.freepik.com/free-vector/flat-hand-drawn-hospital-reception-scene_52683-55313.jpg?w=740&t=st=1665209234~exp=1665209834~hmac=c96178ebb00bfe4a40a0f69a6cc1803c126f6e0e8ac6dba48299434f3360e1fc");
     background-repeat: no-repeat;
 	background-size: cover;
 
@@ -9,7 +19,7 @@ body {
 #nav-bar {
 	width: 100%;
 	min-height: 100px;
-	background:  #EB1D36;
+	background: white ;
 	box-shadow: 0 10px 20px rgb(0, 0, 0), 0 6px 6px rgb(0, 0, 0);
 	font-weight: bold;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -144,6 +154,8 @@ h1, h2, h3 {
 }
 #page-title {
 	font-size: 150%;
+	color: Blue;
+	font-family:Sans-Serif;
 }
 #page-back {
 	display: none;
@@ -179,25 +191,39 @@ h1, h2, h3 {
 	align-items: center;
 }
 .menu-item-box {
+	/* background: rgba (255, 255, 255, 0.1); 
+	box-shadow: 0 20px 50px rgba (0, 0, 0, 0.15); 
+	border-top: 1px solid rgba (255, 255, 255, 0.5); 
+	border-left: 1px solid rgba (255, 255, 255, 0.5);
+	backdrop-filter: blur (5px); */
 	width: 60%;
 	height: 100%;
 	position: relative;
 	border-radius: 30px;
-	background:  #EB1D36;
+	/* background:  #55abf8; */
+	background: rgba(0, 0, 0, .45);
+	box-shadow: 0 20px 50px rgba (0, 0, 0, 0.15);
+	border-top: 1px solid rgba (255, 255, 255, 0.5); 
+	border-left: 1px solid rgba (255, 255, 255, 0.5);
 	color: white;
 	font-family: 'Raleway';
 	font-weight: bold;
 	font-size: 150%;
 	padding: 12%;
-	box-shadow: 0 10px 20px rgb(0, 0, 0), 0 6px 6px rgb(0, 0, 0);
+	backdrop-filter: blur(5px); 
+	/* box-shadow: 0 10px 20px rgb(0, 0, 0), 0 6px 6px rgb(0, 0, 0); */
 	
 }
+
 .menu-item-box:hover{
 	color: #fff;
-	background-color: #000;
-	transition: 0.6s ease;
+	background-color: ;
+	transition: 0.4s ease;
+	box-shadow: inset 0 0 0 2em var(--hover);
 	cursor: pointer;
+	
 }
+  
 .menu-item-overlay {
 	position: absolute;
 	display: none;
